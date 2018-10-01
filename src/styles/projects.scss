@@ -1,0 +1,20 @@
+.projects {
+  grid-column: 5 / 8;
+  grid-row: 3;
+}
+
+.project {
+  background: lightgrey;
+  border-radius: 20px;
+  padding: 2px 15px;
+}
+
+.project a {
+  float: right;
+}
+
+.project-link {
+  cursor: pointer;
+  font-size: 0.9em;
+  text-decoration: underline;
+}

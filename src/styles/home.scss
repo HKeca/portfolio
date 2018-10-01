@@ -1,0 +1,18 @@
+.links {
+  grid-column: 4 / 5;
+  grid-row: 3;
+}
+
+.info {
+  grid-column: 5 / 11;
+  grid-row: 3;
+}
+
+.links ul {
+  list-style: none;
+}
+
+.links ul li {
+  padding-bottom: 9px;
+  text-decoration: underline;
+}
