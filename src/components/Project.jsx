@@ -8,12 +8,14 @@ class Project extends Component {
 
   render() {
     return (
-      <div className="project">
-        <span className="project-text">
-          {this.props.title}
-        </span>
-        <Link to={`/project/${this.props.id}`} 
-              className="project-link">View project</Link>
+      <div className="projects-project">
+        <div>
+          <span className="project-text">
+            {this.props.title}
+          </span>
+          <Link to={`/project/${this.props.id}`} 
+                className="link">View project</Link>
+        </div>
       </div>
     );
   }

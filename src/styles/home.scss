@@ -1,11 +1,18 @@
 .links {
-  grid-column: 4 / 5;
+  grid-area: nav;
   grid-row: 3;
 }
 
 .info {
-  grid-column: 5 / 11;
+  color: $black;
+  grid-area: content;
   grid-row: 3;
+}
+
+.info h1 {
+  font-size: 1.3em;
+  padding-bottom: 10px;
+  font-weight: 400;
 }
 
 .links ul {

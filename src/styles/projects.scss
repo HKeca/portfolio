@@ -1,20 +1,24 @@
+$shadow-color: rgba(0, 0, 0, 0.09);
+
 .projects {
-  grid-column: 5 / 8;
-  grid-row: 3;
+  grid-area: content;
+  grid-row: 3 / 5;
 }
 
-.project {
-  background: lightgrey;
+.projects-project {
+  color: $black;
+  background: white;
+  box-shadow: 0 2px 9px 0px $shadow-color;
   border-radius: 20px;
-  padding: 2px 15px;
+  margin-bottom: 15px;
 }
 
-.project a {
+.projects-project div {
+  padding: 10px 15px;
+}
+
+.projects-project a {
   float: right;
-}
-
-.project-link {
-  cursor: pointer;
   font-size: 0.9em;
-  text-decoration: underline;
+  text-decoration: none;
 }

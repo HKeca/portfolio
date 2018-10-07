@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+// Components
+import Nav from '../components/Nav.jsx';
+
 const projects = require('../../projects.json').projects;
 
 class ProjectPage extends Component {
@@ -20,11 +23,18 @@ class ProjectPage extends Component {
 
   render() {
     return (
-      <div>
-        {
-          this.state.project &&
-          <h1>{this.state.project.title}</h1>
-        }
+      <div className="container">
+        <Nav extended={true} />
+
+        <div className="project">
+          {
+            this.state.project &&
+            <div>
+              <h1 className="project-title">{this.state.project.title}</h1>
+              <p className="project-info">{this.state.project.desc}</p>
+            </div>
+          }
+        </div>
       </div>
     );
   }

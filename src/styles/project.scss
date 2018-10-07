@@ -1,0 +1,14 @@
+.project {
+  grid-area: content;
+  grid-row: 3;
+}
+
+.project-title {
+  color: $black;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+
+.project-info {
+  color: $black;
+}

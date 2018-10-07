@@ -2,7 +2,23 @@
   "projects": [
     {
       "id": "1",
-      "title": "just a test"
+      "title": "Team Hex",
+      "desc": "Team Hex is a sports team management platform. Team Hex features roster management, communication through email and live chat, and event scheduling."
+    },
+    {
+      "id": "2",
+      "title": "Cards against humanity",
+      "desc": "just test"
+    },
+    {
+      "id": "3",
+      "title": "Impossible List",
+      "desc": "A tool to help create a list for tracking accoplishments"
+    },
+    {
+      "id": "4",
+      "title": "Spike",
+      "desc": "Spike is a game engine I'm working on for learning purposes"
     }
   ]
 }
