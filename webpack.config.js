@@ -1,4 +1,5 @@
 const path = require('path');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: './src/app.jsx',
@@ -31,5 +32,10 @@ module.exports = {
   },
   devServer: {
     contentBase: './dist'
-  }
+  },
+  plugins: [
+    new CopyWebpackPlugin([
+      { from: 'static', to: 'dist' }
+    ])
+  ]
 };

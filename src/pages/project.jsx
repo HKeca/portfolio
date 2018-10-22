@@ -32,6 +32,11 @@ class ProjectPage extends Component {
             <div>
               <h1 className="project-title">{this.state.project.title}</h1>
               <p className="project-info">{this.state.project.desc}</p>
+
+              {
+                this.state.project.image &&
+                <a target="_blank" href={this.state.project.image}>Screenshot</a>
+              }
             </div>
           }
         </div>
